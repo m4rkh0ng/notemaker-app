@@ -122,4 +122,5 @@
     line-height: 30px;
     font-size: 14px;
     padding-right: 50px;
+    white-space: pre-wrap;
 }
