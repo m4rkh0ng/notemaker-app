@@ -16,9 +16,9 @@ class NotePreview extends Component {
                 <div className="note-preview-container">
                     <div className="note-preview-inner-container">
                         
-                        {this.props.title.substring(0,18).length > 18
+                        {this.props.title.length > 18
                         ?
-                        <div className="note-preview-title">{this.props.title.substring(0,18) + "..."}</div>
+                        <div className="note-preview-title">{this.props.title.substring(0,16) + "..."}</div>
                         :
                         <div className="note-preview-title">{this.props.title}</div>
                         }                        
